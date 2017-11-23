@@ -142,9 +142,9 @@ int main(int argc, char** argv) {
 
     //user initialization
     users.nextUser = 0;
-    char* registered_users[] = {"nix", "anqi", "alice", "bob", "shirley"};
-    char* registered_pswds[] = {"1230", "1231", "1232", "1233", "shuaigedoushiwode"};
-    users.num_registered_users = 5;
+    char* registered_users[] = {"alex", "billy", "alice", "bob"};
+    char* registered_pswds[] = {"1230", "1231", "1232", "1233"};
+    users.num_registered_users = 4;
     for (i = 0; i < users.num_registered_users; ++i) {
 
         strcpy((users.userNames)[i], registered_users[i]);
