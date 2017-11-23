@@ -41,25 +41,31 @@ The complete set of features will be described below
 
 ### List of commands
 
+1. `/login <username> <password> <server hostname/ip> <server port number>`
 
-	1. `/login <username> <password> <server hostname/ip> <server port number>`
-		To login to the server
+To login to the server
 
-	2. `/createsession <session name>`
-		To create a session called specified in session name, and join it automatically
+2. `/createsession <session name>`
+		
+To create a session called specified in session name, and join it automatically
 	
-	3. `/joinsession <session name>`
-		To join the session under the name session name
+3. `/joinsession <session name>`
+		
+To join the session under the name session name
 
-	4. `/leavesession <session name>`
-		To leave a specific session
+4. `/leavesession <session name>`
+		
+To leave a specific session
 
-	5. `/list`
-		To retrive the current users, sessions and users in each session
+5. `/list`
+	
+To retrive the current users, sessions and users in each session
 
-	6. `/logout`
-		Log you out, also leaves all the session you are currently in
+6. `/logout`
 
-	7. `/quit`
-		Quit the program, also logs you out
+Log you out, also leaves all the session you are currently in
+		
+7. `/quit`
+		
+Quit the program, also logs you out
 
