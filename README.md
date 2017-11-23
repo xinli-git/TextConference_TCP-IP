@@ -30,42 +30,42 @@ The complete set of features will be described below
 
 ### List of Features
 
-	1. Users talk to each others in sessions, the message will explicity specify from whom and which session the message is coming from
+1. Users talk to each others in sessions, the message will explicity specify from whom and which session the message is coming from
 	
-	2. The login and create session actions will be broadcasted to all the current logged in users, you can also retrive the user and login info later using the list command
+2. The login and create session actions will be broadcasted to all the current logged in users, you can also retrive the user and login info later using the list command
 
-	3. Each user is allowed to create multiple sessions and join multiple sessions, the currently joined sessions will be explictily printed
+3. Each user is allowed to create multiple sessions and join multiple sessions, the currently joined sessions will be explictily printed
 
-	4. Sessions expire when all the users leave the session, and when you log out or exit the program, all of your session will be automatically quited as well.
+4. Sessions expire when all the users leave the session, and when you log out or exit the program, all of your session will be automatically quited as well.
 
 
 ### List of commands
 
 1. `/login <username> <password> <server hostname/ip> <server port number>`
 
-To login to the server
+	To login to the server
 
 2. `/createsession <session name>`
 		
-To create a session called specified in session name, and join it automatically
+	To create a session called specified in session name, and join it automatically
 	
 3. `/joinsession <session name>`
 		
-To join the session under the name session name
+	To join the session under the name session name
 
 4. `/leavesession <session name>`
 		
-To leave a specific session
+	To leave a specific session
 
 5. `/list`
 	
-To retrive the current users, sessions and users in each session
+	To retrive the current users, sessions and users in each session
 
 6. `/logout`
 
-Log you out, also leaves all the session you are currently in
+	Log you out, also leaves all the session you are currently in
 		
 7. `/quit`
 		
-Quit the program, also logs you out
+	Quit the program, also logs you out
 
