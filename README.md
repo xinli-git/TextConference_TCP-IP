@@ -1,22 +1,22 @@
 # TextConference_TCP-IP
 
-Simple online text conference with linux socket programming
+### Simple online text conference with linux socket programming
 
-Welcome!
+### Welcome!
 
-This is a simple text conference program using TPC/IP on linux.
-All data is not secured during message trasnmission so use it just for fun.
+#### This is a simple text conference program using TPC/IP on linux.
+#### All data is not secured during message trasnmission so use it just for fun.
 
-To start the program, try `make` to first generate the excutables
+#### To start the program, try `make` to first generate the excutables
 
-Client:
+### Client:
 
 To initiate the client program, try `client <TCP port number to listen on>` to have the client running on a certain port
 Upon success, a message will be printed "Listener successfully running..."
 All subsequent log mesage will be printed if there is any client action.
 
 
-Server:
+### Server:
 
 To initiate client, simply type `client`
 
@@ -26,9 +26,9 @@ The complete set of features will be described below
 *currently, login names and passwords are hardcoded in the server program, please check to see.
 
 
-Command and Features:
+## Command and Features:
 
-List of Features
+### List of Features
 
 	1. Users talk to each others in sessions, the message will explicity specify from whom and which session the message is coming from
 	
@@ -39,7 +39,7 @@ List of Features
 	4. Sessions expire when all the users leave the session, and when you log out or exit the program, all of your session will be automatically quited as well.
 
 
-List of commands
+### List of commands
 
 
 	1. `/login <username> <password> <server hostname/ip> <server port number>`
